@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run -q
 
 import { createRPC } from "https://deno.land/x/deno_json_rpc@v1.0.0/src/rpc_two.ts";
-import { createOmeggaIO } from "https://gist.githubusercontent.com/foxydevloper/58953b3a1827744f45ef07ad6652f780/raw/4efa2f1e7884b25d154d83f6ed73847486aaa3e5/omegga_io.ts";
+import { createOmeggaIO } from "./omegga_io.ts";
 
 import documentation from "./doc.json" assert { type: "json" }; // witness the beauty of deno
 
