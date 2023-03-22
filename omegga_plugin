@@ -9,7 +9,7 @@ const rpc = createRPC(createOmeggaIO());
 
 rpc.onRequest("init", () => ({ registeredCommands: [] }));
 
-rpc.onRequest("start", () => {
+rpc.onNotification("start", () => {
   console.log(`${documentation.name} started!`);
 
   const intervalId = setInterval(() => {
