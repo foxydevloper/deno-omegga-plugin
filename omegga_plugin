@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run -q
+#!/usr/bin/env -S deno run -q --ext=ts
 
 import { createRPC } from "https://deno.land/x/deno_json_rpc@v1.0.0/src/rpc_two.ts";
 import { createOmeggaIO } from "./omegga_io.ts";
